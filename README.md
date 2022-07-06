@@ -1,2 +1,2 @@
 # solar-system-data
-Use solar system data with https://api.le-systeme-solaire.net/ api
+Solar system data with https://api.le-systeme-solaire.net/ api
