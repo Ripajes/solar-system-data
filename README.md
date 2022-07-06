@@ -1,8 +1,8 @@
 # solar-system-data
-Downloads dolar system planets data from https://api.le-systeme-solaire.net/ api and saves it in data folder.
-### Run it with python 3:
+Downloads solar system planets data from https://api.le-systeme-solaire.net/ api and saves it in data folder.
+### Run it with python3:
 - Install requirements.txt
-- run it:
+- Run it:
     <code>python ingest_data.py</code>
 ### Run it with docker:
 - Build the image:

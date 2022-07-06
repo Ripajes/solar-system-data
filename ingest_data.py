@@ -52,7 +52,7 @@ def get_planets()->object:
 def main():
     planets = get_planets()
     save_file = path.join(path.dirname(__file__), 'data', 'planets.json')
-    planets.to_json(path_or_buf=save_file,index=True)
+    planets.to_json(path_or_buf=save_file,index=True, orient='records')
     print('finished')
 
 if __name__ == '__main__':
