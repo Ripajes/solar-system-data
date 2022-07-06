@@ -1,11 +1,11 @@
 # solar-system-data
-Solar system data with https://api.le-systeme-solaire.net/ api
-Run with python:
-    - Install requirements.txt
-    - run it:
-        python ingest_data.py
-Run with docker:
+Downloads dolar system planets data from https://api.le-systeme-solaire.net/ api and saves it in data folder.
+### Run it with python 3:
+- Install requirements.txt
+- run it:
+    <code>python ingest_data.py<code>
+### Run it with docker:
 - Build the image:
-    docker build -t solar_system_ingest .
-- Run the image
-    docker run -it -v ${PWD}/data:/app/data solar_system_ingest
+    <code>docker build -t solar_system_ingest . <code>
+- Run the container:
+    <code>docker run -it -v ${PWD}/data:/app/data solar_system_ingest<code>
